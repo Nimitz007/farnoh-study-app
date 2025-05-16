@@ -1,5 +1,19 @@
 {
+  "name": "farnoh-study-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web"
+  },
   "dependencies": {
-    "farnoh-study-app-temp": "file:../Users/info/farnoh-study-app-temp"
+    "expo": "~49.0.0",
+    "react": "18.2.0",
+    "react-native": "0.72.5",
+    "@react-navigation/native": "^6.1.9",
+    "@react-navigation/stack": "^6.3.20",
+    "firebase": "^10.5.0"
   }
 }
